@@ -18,5 +18,5 @@ def get(host, port):
     s.close()
 
 if __name__ == "__main__":
-    # get('www.google.com', 80)
+    get('www.google.com', 80)
     get("localhost", 8001)
